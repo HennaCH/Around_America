@@ -3,7 +3,6 @@ import './App.css';
 import NorthAmerica from './components/NorthAmerica';
 import { useCallback, useEffect, useState } from "react";
 import SouthAmerica from './components/SouthAmerica';
-import Example from './components/heartSwitch';
 import HeartSwitchBtn from './components/heartSwitch';
 
 function App() {
@@ -11,18 +10,18 @@ function App() {
   const [visible2,setVisible2] = useState(false);
   
   return(
-    <div> 
+    <div>  
       <button  onClick={()=>{setVisible1(!visible1); setVisible2(false)} }> North America </button> 
       <button onClick={()=>{setVisible2(!visible2); setVisible1(false)}}> South America</button>
       {/* change the map to true or false*/} 
+     <div className='heartSwitchStyle'><HeartSwitchBtn /></div>
+     
 
-      {visible1 && <NorthAmerica/>}
-      {visible2 && <SouthAmerica/>}
+      <div className='map1style'>{visible1 && <NorthAmerica/>}</div>
+      <div className='map2style'>{visible2 && <SouthAmerica/>}</div>
        {/* When the visible is set to true, show map */}
-       <HeartSwitchBtn/>
-
-
     </div>
+
   )
 }
 
