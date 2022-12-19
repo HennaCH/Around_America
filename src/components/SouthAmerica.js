@@ -6,8 +6,8 @@ import {
   Marker
 } from "react-simple-maps";
 
-const geoUrl =
-  "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/south-america.json";
+const geoUrl2 =
+   "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/south-america.json";
 
 const markers = [
   {
@@ -21,23 +21,21 @@ const markers = [
   { markerOffset: 25, name: "Bogota", coordinates: [-74.0721, 4.711] },
   { markerOffset: 25, name: "Quito", coordinates: [-78.4678, -0.1807] },
   { markerOffset: -15, name: "Georgetown", coordinates: [-58.1551, 6.8013] },
-  { markerOffset: -15, name: "Asuncion", coordinates: [-57.5759, -25.2637] },
-  { markerOffset: 25, name: "Paramaribo", coordinates: [-55.2038, 5.852] },
-  { markerOffset: 25, name: "Montevideo", coordinates: [-56.1645, -34.9011] },
-  { markerOffset: -15, name: "Caracas", coordinates: [-66.9036, 10.4806] },
-  { markerOffset: -15, name: "Lima", coordinates: [-77.0428, -12.0464] }
+  { markerOffset: -15, name: "Asuncion", coordinates: [-57.5759, -25.2637] }
 ];
 
-const MapChart = () => {
+const SouthAmerica = () => {
   return (
-    <ComposableMap
+    <div>
+    <ComposableMap className="map2style"
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
-        rotate: [58, 20, 0],
-        scale: 400
+        rotate: [100, 0, 0],
+        scale: 310
       }}
     >
-      <Geographies geography={geoUrl}>
+      
+      <Geographies className="map2style" geography={geoUrl2}>
         {({ geographies }) =>
           geographies.map((geo) => (
             <Geography
@@ -48,7 +46,7 @@ const MapChart = () => {
             />
           ))
         }
-      </Geographies>
+      </Geographies> 
       {markers.map(({ name, coordinates, markerOffset }) => (
         <Marker key={name} coordinates={coordinates}>
           <circle r={10} fill="#F00" stroke="#fff" strokeWidth={2} />
@@ -62,7 +60,8 @@ const MapChart = () => {
         </Marker>
       ))}
     </ComposableMap>
-  );
+    </div>
+  )
 };
 
-export default MapChart;
+export default SouthAmerica;
