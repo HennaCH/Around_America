@@ -27,15 +27,15 @@ const markers = [
 const SouthAmerica = () => {
   return (
     <div>
-    <ComposableMap className="map2style"
+    <ComposableMap
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
-        rotate: [100, 0, 0],
-        scale: 310
+        rotate: [64, 23, 0],
+        scale: 400
       }}
     >
       
-      <Geographies className="map2style" geography={geoUrl2}>
+      <Geographies geography={geoUrl2}>
         {({ geographies }) =>
           geographies.map((geo) => (
             <Geography
@@ -49,7 +49,7 @@ const SouthAmerica = () => {
       </Geographies> 
       {markers.map(({ name, coordinates, markerOffset }) => (
         <Marker key={name} coordinates={coordinates}>
-          <circle r={10} fill="#F00" stroke="#fff" strokeWidth={2} />
+          <circle r={5} fill="#F00" stroke="#fff" strokeWidth={2} />
           <text
             textAnchor="middle"
             y={markerOffset}

@@ -28,9 +28,31 @@
   color: #61dafb;
 }
 
-.map2style{
-    margin-right: 410px;
-    margin-top: -120px;
+button{
+  margin: 10px;
+}
+
+.map1style{
+  padding-top: 70px;
+}
+
+ .map2style{
+  margin-top: -100px;
+}   
+
+.heartSwitchStyle{
+  margin-top: -30px;
+  padding-right: 10px;
+  justify-content: right;
+    display: flex;
+}
+
+.lightMode{
+  background-color: pink;
+}
+
+.darkMode{
+  background-color: palevioletred;
 }
 
 @keyframes App-logo-spin {

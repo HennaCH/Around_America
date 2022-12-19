@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { HeartSwitch } from '@anatoliygatt/heart-switch';
 
 function HeartSwitchBtn() {
-  const [checked, setChecked] = useState(false);
+ const [checked, setChecked] = useState(false);
+  
   return (
     <HeartSwitch
       size="lg"
