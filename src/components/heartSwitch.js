@@ -1,25 +1,13 @@
 import { useState } from 'react';
 import { HeartSwitch } from '@anatoliygatt/heart-switch';
+import App from '../App';
 
 function HeartSwitchBtn() {
-  const defaultChecked = localStorage.getItem('isChecked') === 'true';
+  const defaultChecked = document.body.style.backgroundColor = 'pink' && localStorage.getItem('isChecked') === 'true';
   const [checked, setChecked] = useState(defaultChecked);
     
   return (
-    // <HeartSwitch  id="heartMode" 
-    //   size="lg"
-    //   
-    //   checked={checked}
-    //   onChange={(e) => {
-    //     if (e.target.checked) {
-    //       document.body.style.backgroundColor="pink" 
-    //       localStorage.removeItem('isChecked');
-    //       return;
-    //     }
-    //     setChecked(e.target.checked);
-    //     localStorage.setItem('isChecked', 'true');}}
-    // />
-    <HeartSwitch
+    <HeartSwitch 
         size="lg"
         inactiveTrackFillColor="#cffafe"
         inactiveTrackStrokeColor="#22d3ee"
@@ -29,12 +17,12 @@ function HeartSwitchBtn() {
         activeThumbColor="#ecfeff"
         checked={checked}
         onChange={(event) => {
-          if(!event.target.checked){
-            document.body.style.backgroundColor = 'pink';
+          if(!event.target.checked && window.confirm('Do you want to go to light theme ?')){
+          document.body.style.background = 'pink';
             setChecked(event.target.checked);
           }
-          else if (event.target.checked) {
-            document.body.style.backgroundColor = 'DeepPink';
+          else if (event.target.checked && window.confirm('Do you want to go to dark theme ?')) {
+            document.body.style.background = 'paleVioletRed';
             setChecked(event.target.checked);
           }
         }}

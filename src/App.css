@@ -32,6 +32,10 @@ button{
   margin: 10px;
 }
 
+.capitalFont{
+  font-family:'Times New Roman', Times, serif;
+}
+
 .map1style{
   padding-top: 70px;
 }
@@ -40,6 +44,10 @@ button{
   margin-top: -100px;
 }   
 
+.searchBar{
+  margin: 10px;
+}
+
 .heartSwitchStyle{
   margin-top: -30px;
   padding-right: 10px;
@@ -47,9 +55,6 @@ button{
     display: flex;
 }
 
-body{
-  background-color: white;
-}
 .lightMode{
   background-color: pink;
 }
