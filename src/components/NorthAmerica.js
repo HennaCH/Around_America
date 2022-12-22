@@ -23,34 +23,7 @@ const geoUrl1 =
     { markerOffset: -15, name: "Guatemala City", coordinates: [89.5759, 164.2637] },
     { markerOffset: 15, name: "Panama City", coordinates: [99.5759, 171.2637] },
     { markerOffset: 15, name: "Tegucigalpa", coordinates: [92.5759, 165.2637] }
-    // { markerOffset: 25, name: "San Juan", coordinates: [66.1185, 18.4671] },
-    // { markerOffset: -15, name: "San José", coordinates: [121.8853,37.3387] },
-    // { markerOffset: -15, name: "Port-au-Prince", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Kingston", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "San Salvador", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Managua", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Nassay", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Belmopan", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Cockburn Town", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Bridgetown", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "George Town", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Castries", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Charlotte Amalie", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Fort-de-France", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Basse-Terre", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Saint George's", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Roseau", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Basseterre", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Saint Johns", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Road Town ", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Gustavia", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "The Valley", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Philipsburg", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Kingstown", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Saint-Pierre", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Brades", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Plymouth", coordinates: [-57.5759, -25.2637] },
-    // { markerOffset: -15, name: "Marigot", coordinates: [-57.5759, -25.2637] }
+
   ];
   
 

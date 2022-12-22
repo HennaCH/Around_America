@@ -9,10 +9,10 @@ function HeartSwitchBtn() {
   return (
     <HeartSwitch 
         size="lg"
-        inactiveTrackFillColor="#cffafe"
-        inactiveTrackStrokeColor="#22d3ee"
-        activeTrackFillColor="#06b6d4"
-        activeTrackStrokeColor="#0891b2"
+        inactiveTrackFillColor='paleVioletRed'
+        inactiveTrackStrokeColor="#cc0066"
+        activeTrackFillColor='pink'
+        activeTrackStrokeColor="#e60073"
         inactiveThumbColor="#ecfeff"
         activeThumbColor="#ecfeff"
         checked={checked}
