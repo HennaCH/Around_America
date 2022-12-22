@@ -15,13 +15,13 @@ const markers = [
     name: "Buenos Aires",
     coordinates: [-58.3816, -34.6037]
   },
-  { markerOffset: -15, name: "La Paz", coordinates: [-68.1193, -16.4897] },
-  { markerOffset: 25, name: "Brasilia", coordinates: [-47.8825, -15.7942] },
-  { markerOffset: 25, name: "Santiago", coordinates: [-70.6693, -33.4489] },
-  { markerOffset: 25, name: "Bogota", coordinates: [-74.0721, 4.711] },
-  { markerOffset: 25, name: "Quito", coordinates: [-78.4678, -0.1807] },
-  { markerOffset: -15, name: "Georgetown", coordinates: [-58.1551, 6.8013] },
-  { markerOffset: -15, name: "Asuncion", coordinates: [-57.5759, -25.2637] }
+  { markerOffset: -15, name: "Bolivia", coordinates: [-68.1193, -16.4897] },
+  { markerOffset: 25, name: "Bresil", coordinates: [-47.8825, -15.7942] },
+  { markerOffset: 25, name: "Chili", coordinates: [-70.6693, -33.4489] },
+  { markerOffset: -10, name: "Colombia", coordinates: [-74.0721, 4.711] },
+  { markerOffset: 20, name: "Ecuador", coordinates: [-78.4678, -0.1807] },
+  { markerOffset: -15, name: "Gyana", coordinates: [-58.1551, 6.8013] },
+  { markerOffset: -15, name: "Paraguay", coordinates: [-57.5759, -25.2637] }
 ];
 
 const SouthAmerica = () => {

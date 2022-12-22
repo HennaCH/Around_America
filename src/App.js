@@ -18,8 +18,8 @@ function App() {
       <button  onClick={()=>{setVisible1(!visible1); setVisible2(false)}}> North America </button> 
       <button onClick={()=>{setVisible2(!visible2); setVisible1(false)}}> South America</button>
       {/* change the map to true or false*/} 
-      <div className='heartSwitchStyle'><HeartSwitchBtn onClick={()=>{document.body.style.backgroundColor = 'pink'}}/></div>
-      <p className='searchBar'><SearchBar/></p>
+      <div className='heartSwitchStyle'><HeartSwitchBtn/></div>
+      <div><p className='searchBar'><SearchBar/></p></div>
       
      
 

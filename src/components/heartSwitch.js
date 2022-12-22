@@ -18,7 +18,7 @@ function HeartSwitchBtn() {
         checked={checked}
         onChange={(event) => {
           if(!event.target.checked && window.confirm('Do you want to go to light theme ?')){
-          document.body.style.background = 'pink';
+          document.style.backgroundColor = 'pink'
             setChecked(event.target.checked);
           }
           else if (event.target.checked && window.confirm('Do you want to go to dark theme ?')) {

@@ -27,7 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+body{
+  background-color: pink;
+}
 
+.die{
+  background-color: #61dafb;
+}
 button{
   margin: 10px;
 }

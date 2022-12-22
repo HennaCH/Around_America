@@ -12,17 +12,17 @@ const geoUrl1 =
   const markers = [
     {
       markerOffset: -15,
-      name: "Washington",
+      name: "United States",
       coordinates: [75.3816, 140.6037]
     },
-    { markerOffset: -15, name: "Mexico City", coordinates: [77, 156.4897] },
-    { markerOffset: 25, name: "Ottawa", coordinates: [75.5260, 115.2551] },
-    { markerOffset: 25, name: "Havana", coordinates: [100.11361, 157.3666] },
-    { markerOffset: -15, name: "Santo Domingo ", coordinates: [110.4678, 160.3666] },
-    { markerOffset: -15, name: "Nuuk", coordinates: [-45.598, 76.88] },
-    { markerOffset: -15, name: "Guatemala City", coordinates: [89.5759, 164.2637] },
-    { markerOffset: 15, name: "Panama City", coordinates: [99.5759, 171.2637] },
-    { markerOffset: 15, name: "Tegucigalpa", coordinates: [92.5759, 165.2637] }
+    { markerOffset: -15, name: "Mexico", coordinates: [77, 156.4897] },
+    { markerOffset: 25, name: "Canada", coordinates: [75.5260, 115.2551] },
+    { markerOffset: 25, name: "Cuba", coordinates: [100.11361, 157.3666] },
+    { markerOffset: -15, name: "Dominican Republic", coordinates: [110.4678, 160.3666] },
+    { markerOffset: -15, name: "Greenland", coordinates: [-45.598, 76.88] },
+    { markerOffset: -15, name: "Guatemala", coordinates: [89.5759, 164.2637] },
+    { markerOffset: 15, name: "Panama", coordinates: [99.5759, 171.2637] },
+    { markerOffset: 15, name: "Honduras", coordinates: [92.5759, 165.2637] }
 
   ];
   
