@@ -120,7 +120,7 @@ function SearchBar() {
     }).map((capital) => 
      {
         return(
-          <p>{capital.capital}</p>
+          <p> {capital.capital}</p>
         );
      }
      )
