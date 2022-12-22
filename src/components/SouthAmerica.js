@@ -6,6 +6,14 @@ import {
   Marker
 } from "react-simple-maps";
 
+function bgd1(e) {
+  e.target.style.fill = '#e63d00'
+}
+
+function bgd2(e) {
+  e.target.style.fill = '#ff8f66'
+}
+
 const geoUrl2 =
    "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/south-america.json";
 
@@ -49,7 +57,8 @@ const SouthAmerica = () => {
       </Geographies> 
       {markers.map(({ name, coordinates, markerOffset }) => (
         <Marker key={name} coordinates={coordinates}>
-          <circle r={5} fill="#F00" stroke="#fff" strokeWidth={2} />
+          <circle r={5} fill="#ff8f66" stroke="#fff" strokeWidth={2} onMouseEnter={bgd1} onMouseLeave={bgd2}/>
+          <text/>
           <text
             textAnchor="middle"
             y={markerOffset}

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import React from "react";
+
 // import {
 //   ComposableMap,
 //   Geographies,
@@ -119,9 +120,7 @@ function SearchBar() {
     }).map((capital) => 
      {
         return(
-            <div> 
-                <p>{capital.capital}</p>
-            </div>
+          <p>{capital.capital}</p>
         );
      }
      )

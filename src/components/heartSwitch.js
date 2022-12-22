@@ -13,16 +13,16 @@ function HeartSwitchBtn() {
         inactiveTrackStrokeColor="#cc0066"
         activeTrackFillColor='pink'
         activeTrackStrokeColor="#e60073"
-        inactiveThumbColor="#ecfeff"
-        activeThumbColor="#ecfeff"
+        inactiveThumbColor="#ffffff"
+        activeThumbColor="#ffffff"
         checked={checked}
         onChange={(event) => {
           if(!event.target.checked && window.confirm('Do you want to go to light theme ?')){
-          document.style.backgroundColor = 'pink'
+          document.body.style.backgroundColor = 'pink'
             setChecked(event.target.checked);
           }
           else if (event.target.checked && window.confirm('Do you want to go to dark theme ?')) {
-            document.body.style.background = 'paleVioletRed';
+            document.body.style.backgroundColor = 'paleVioletRed';
             setChecked(event.target.checked);
           }
         }}

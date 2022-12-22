@@ -28,7 +28,7 @@ function App() {
       
        {/* When the visible is set to true, show map */}
        </div>
-    </body>
+       </body>
   )
   }
 
