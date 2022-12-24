@@ -5,9 +5,14 @@ import {
   Geography,
   Marker
 } from "react-simple-maps";
+import { useCallback, useEffect, useState } from "react";
+import axios from 'axios';
+
+
 
 function bgd1(e) {
   e.target.style.fill = '#e63d00'
+
 }
 
 function bgd2(e) {
@@ -33,6 +38,18 @@ const markers = [
 ];
 
 const SouthAmerica = () => {
+  
+  
+useEffect(() => {
+  axios
+    .get('http://localhost:8081/api/countries')
+    .then((response) => {
+      console.log(response);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+  }, []);
   return (
     <div>
     <ComposableMap
