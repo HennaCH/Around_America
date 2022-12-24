@@ -5,12 +5,31 @@ import { useCallback, useEffect, useState } from "react";
 import SouthAmerica from './components/SouthAmerica';
 import HeartSwitchBtn from './components/heartSwitch';
 import SearchBar from './components/SearchBar';
-
+import axios from 'axios';
 
 function App() {
 
+  useEffect(() => {
+    axios
+      .get('http://localhost:8081/api/countries')
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+    }, []);
+
   const [visible1,setVisible1] = useState(false);
   const [visible2,setVisible2] = useState(false);
+  // const promise = axios.get("https://api.github.com/search/users?q=tawjaw")
+  // .then(function(response){
+  //   console.log(response)
+  // })
+  // .catch(function(error){
+  //   console.log(error)
+  // })
+  // console.log("after")
 
   return(
     <body>

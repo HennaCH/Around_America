@@ -28,7 +28,7 @@ const markers = [
   { markerOffset: 25, name: "Chili", coordinates: [-70.6693, -33.4489] },
   { markerOffset: -10, name: "Colombia", coordinates: [-74.0721, 4.711] },
   { markerOffset: 20, name: "Ecuador", coordinates: [-78.4678, -0.1807] },
-  { markerOffset: -15, name: "Gyana", coordinates: [-58.1551, 6.8013] },
+  { markerOffset: -15, name: "Guyana", coordinates: [-58.1551, 6.8013] },
   { markerOffset: -15, name: "Paraguay", coordinates: [-57.5759, -25.2637] }
 ];
 
