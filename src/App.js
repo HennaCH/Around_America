@@ -22,14 +22,6 @@ function App() {
 
   const [visible1,setVisible1] = useState(false);
   const [visible2,setVisible2] = useState(false);
-  // const promise = axios.get("https://api.github.com/search/users?q=tawjaw")
-  // .then(function(response){
-  //   console.log(response)
-  // })
-  // .catch(function(error){
-  //   console.log(error)
-  // })
-  // console.log("after")
 
   return(
     <body>
@@ -44,7 +36,6 @@ function App() {
 
       <div className='map1style'>{visible1 && <NorthAmerica/>}</div>
       <div className='map2style'>{visible2 && <SouthAmerica/>}</div>
-      
        {/* When the visible is set to true, show map */}
        </div>
        </body>
