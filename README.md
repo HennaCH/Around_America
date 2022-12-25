@@ -1,6 +1,7 @@
 Final Java Web Project
 
 Around_America
+
 http://localhost:3000/
 
 Around_America is an application that will help people who are undecisive on there next vacation destination. Whith this application, users will be able to inform themselves on the coutries of America, either it is North America or South America. The app will be able to give information on a specific country, regarding the attractions and the food of the country. In addition, the user will be able to add countries and attractions that are not alreadly on the map to start a travelling journal. They will update the map with their trips.
